@@ -62,8 +62,12 @@ Follow these steps to set up the project for local development:
    - Start the database service
    - Create a database for the application:
      ```sql
-     CREATE DATABASE tsumami_db;
+     CREATE DATABASE tsumami;
      ```
+
+3. **API Token**
+    - Request an API token for external integrations (e.g., Spoonacular) from [API Token Request Page](https://spoonacular.com/food-api/).
+    - Replace `your_api_key_here` in `private_constants.js` with the token you receive.
 
 ### Installation Steps
 
@@ -82,7 +86,7 @@ Follow these steps to set up the project for local development:
    
    Edit `src/main/resources/application.properties` with your database credentials:
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/tsumami_db
+   spring.datasource.url=jdbc:mysql://localhost:3306/tsumami
    spring.datasource.username=your_db_username
    spring.datasource.password=your_db_password
    spring.jpa.hibernate.ddl-auto=update
