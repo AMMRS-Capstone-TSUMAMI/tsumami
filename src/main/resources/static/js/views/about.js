@@ -50,7 +50,7 @@ export default function About(props) {
             "github": "RSKYoshi",
             "alumniLink": "https://alumni.codeup.com/web-developers",
             "resume": "ryanyoshimura",
-            "background": "/img/kaenaBeachResized.jpg\" alt=\"img",
+            "background": "/img/kaena-beach-resized.jpg\" alt=\"img",
             "quotes": '"From one thing, know ten thousand things"' + '<br>' + '― Miyamoto Musashi'
         },
         {
@@ -102,7 +102,7 @@ export default function About(props) {
             <li>
                 <button id="about-card-btn">           
                   <a data-link href="https://linkedin.com/in/${Developer[i].linkedIn}" target="_blank"><img class = "linkBtn" data-passthru src="img/linkedin.png" alt="img"></a>
-                  <a data-link href="https://github.com/${Developer[i].github}" target="_blank"><img class = "linkBtn" data-passthru src="img/github-signResized.png" alt="img"></a>
+                  <a data-link href="https://github.com/${Developer[i].github}" target="_blank"><img class = "linkBtn" data-passthru src="img/github-sign-resized.png" alt="img"></a>
                   <a data-link href="${Developer[i].alumniLink}" target="_blank"><img class = "linkBtn" data-passthru src="img/codeup-arrow.png" alt="img"></a>
                   <a data-link href="https://${Developer[i].resume}.venuscohort.com" target="_blank"><img class = "linkBtn" data-passthru src="img/venus-sm.png" alt="img"></a>
                 </button>

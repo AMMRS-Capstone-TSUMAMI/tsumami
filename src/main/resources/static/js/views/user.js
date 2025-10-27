@@ -149,7 +149,7 @@ function appendTrophyHTML (usersTrophies, currentTrophy){
                     
                         <div class="card trophy-card trophy-earned m-2 tt" data-bs-placment="bottom" data-bs-title=${JSON.stringify(currentTrophy.description)} data-desc=${currentTrophy.description.replace(/\s/g , "-")}>
                           <div class="card-body">
-                            <img src="/img/earnedTrophy.png" class="trophy-icon"> 
+                            <img src="/img/earned-trophy.png" class="trophy-icon"> 
                           </div>
                           <div class="card-body">
                             <h6 class="trophy-title text-center">${currentTrophy.title}</h6>
@@ -160,7 +160,7 @@ function appendTrophyHTML (usersTrophies, currentTrophy){
         return `<div class="card trophy-card trophy-unearned m-2 tt" data-bs-title=${JSON.stringify(currentTrophy.description)} data-desc=${currentTrophy.description.replace(/\s/g , "-")}>
                         <div class="trophy-unearned-overlay">
                           <div class="card-body">
-                            <img src="/img/newunearned.png" class="trophy-icon"> 
+                            <img src="/img/new-unearned.png" class="trophy-icon"> 
                           </div>
                           <div class="card-body">
                             <h6 class="trophy-title text-center">${currentTrophy.title}</h6>
@@ -348,7 +348,7 @@ function moreToast(title, description) {
     toastDiv.innerHTML = `
         <div class="toast-title">
             <div class="mx-1 my-1 d-flex">
-                <img src="/img/earnedTrophy.png" class="toast-img">
+                <img src="/img/earned-trophy.png" class="toast-img">
                 <div class="mx-1">${title}</div>
             </div>
             <div class="mx-1 my-1">

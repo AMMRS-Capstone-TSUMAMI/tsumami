@@ -21,7 +21,7 @@ export default function Navbar(props) {
                 </li> 
                  <li class="nav-item ms-auto p-2 bd-highlight">
                     <a data-link href="/about">
-                        <img src="/img/devLogo.png" data-passthru alt="tsUmami" height="40" id="devLogo" class="d-inline-block align-text-top">
+                        <img src="/img/dev-logo.png" data-passthru alt="tsUmami" height="40" id="devLogo" class="d-inline-block align-text-top">
                     </a>
                 </li>
                 <li class="nav-item ms-auto p-2 bd-highlight">
