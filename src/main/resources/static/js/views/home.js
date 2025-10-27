@@ -75,7 +75,7 @@ function loopRecipesData() {
             for (let i = 0; i < recipeArray[0].results[j].length; i++) {
                 let image = `https://spoonacular.com/recipeImages/${recipeArray[0].results[j].image}`;
                 if (recipeArray[0].results[j].image === null) {
-                    image = "/img/frying-panResized.png"
+                    image = "/img/frying-pan-resized.png"
                 }
             }
             html += `
