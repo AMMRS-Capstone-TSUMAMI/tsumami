@@ -1,6 +1,6 @@
 import {isLoggedIn} from "../../auth.js";
 
-export default function Navbar(props) {
+export default function navbar(props) {
     if(isLoggedIn()) {
         return `
 <nav class="navbar navbar-expand-sm">

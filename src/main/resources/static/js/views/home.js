@@ -6,7 +6,7 @@ let html="";
 
 
 
-export default function Home(props) {
+export default function home(props) {
     // recipeData=props.recipeData;
     console.log("The frontend did it. HER FAULT");
     // console.log(recipeData);

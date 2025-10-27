@@ -1,6 +1,6 @@
 import {checkAndAddTrophy} from "./User.js";
 let me;
-export default function About(props) {
+export default function about(props) {
      me = props.me;
     console.log(me)
     

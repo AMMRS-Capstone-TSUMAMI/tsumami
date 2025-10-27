@@ -1,4 +1,4 @@
-import Navbar from "./views/partials/navbar.js";
+import navbar from "./views/partials/navbar.js";
 
 /**
  * Pushes the current URI to the URL bar and sets the HTML of the app div.
@@ -32,7 +32,7 @@ export default function render(props, route) {
     const app = document.querySelector('#app');
     const title = `tsUmami - ${route.title}`;
     document.title = title;
-    app.innerHTML = `${Navbar(null)} ${route.returnView(props)}`;
+    app.innerHTML = `${navbar(null)} ${route.returnView(props)}`;
     if (route.viewEvent){
         route.viewEvent();
     }

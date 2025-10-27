@@ -1,6 +1,6 @@
 import createView from "../create-view.js";
 
-export default function Logout(props) {
+export default function logout(props) {
     return `
        <h1>Logging Out</h1>
     `;

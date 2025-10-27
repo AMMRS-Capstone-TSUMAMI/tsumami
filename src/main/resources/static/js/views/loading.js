@@ -1,4 +1,4 @@
-export default function Loading(props) {
+export default function loading(props) {
     return `
         <div id="loader-wrapper">
             <div id="loader"></div>            
