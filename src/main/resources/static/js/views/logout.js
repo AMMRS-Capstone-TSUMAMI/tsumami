@@ -1,4 +1,4 @@
-import createView from "../createView.js";
+import createView from "../create-view.js";
 
 export default function Logout(props) {
     return `
