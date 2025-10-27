@@ -4,7 +4,7 @@ import * as auth from "../auth.js";
 
 let currentTab = 0; // Current tab is set to be the first tab (0)
 
-export default function Register(props) {
+export default function register(props) {
 
     if(auth.isRegistered()){
         createView("/meals");

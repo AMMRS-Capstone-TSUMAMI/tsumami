@@ -1,13 +1,13 @@
-import Home, {HomeEvents} from "./views/home.js";
-import Landing from "./views/landing.js";
-import About, {aboutEvent} from "./views/about.js";
-import Error404 from "./views/error404.js";
-import Loading from "./views/loading.js";
-import Login, {LoginEvent} from "./views/login.js";
-import Register, {RegisterEvent} from "./views/register.js"
+import home, {HomeEvents} from "./views/home.js";
+import landing from "./views/landing.js";
+import about, {aboutEvent} from "./views/about.js";
+import error404 from "./views/error-404.js";
+import loading from "./views/loading.js";
+import login, {LoginEvent} from "./views/login.js";
+import register, {RegisterEvent} from "./views/register.js"
 import prepareUserHTML, {prepareUserJS} from "./views/user.js";
-import Logout, {LogoutEvent} from "./views/logout.js";
-import Meals, {MealsEvent} from "./views/meals.js";
+import logout, {LogoutEvent} from "./views/logout.js";
+import meals, {MealsEvent} from "./views/meals.js";
 import recipesHTML, {recipesEvent} from "./views/recipes.js";
 
 /**
@@ -19,19 +19,19 @@ import recipesHTML, {recipesEvent} from "./views/recipes.js";
 export default function router(URI) {
     const routes = {
         '/landing': {
-            returnView: Landing,
+            returnView: landing,
             state: {},
             uri: '/landing',
             title: 'Landing',
         },
         '/': {
-            returnView: Landing,
+            returnView: landing,
             state: {},
             uri: '/landing',
             title: 'Landing',
         },
         '/home': {
-            returnView: Home,
+            returnView: home,
             state: {},
             uri: '/home',
             title: 'home',
@@ -53,28 +53,28 @@ export default function router(URI) {
             // background: 'linear-gradient(145deg, #444, #000)',
         },
         '/login': {
-            returnView: Login,
+            returnView: login,
             state: {},
             uri: '/login',
             title: "Login",
             viewEvent: LoginEvent
         },
         '/register': {
-            returnView: Register,
+            returnView: register,
             state: {},
             uri: '/register',
             title: "Register",
             viewEvent: RegisterEvent
         },
         '/logout': {
-            returnView: Logout,
+            returnView: logout,
             state: {},
             uri: '/logout',
             title: "Logout",
             viewEvent: LogoutEvent,
         },
         '/meals': {
-            returnView: Meals,
+            returnView: meals,
             state: {
                 me: '/api/users/me'
             },
@@ -84,7 +84,7 @@ export default function router(URI) {
             background: `#eaeff3`
         },
         '/about': {
-            returnView: About,
+            returnView: about,
             state: {
                 me: '/api/users/me'
             },
@@ -103,14 +103,14 @@ export default function router(URI) {
             viewEvent: aboutEvent
         },
         '/error': {
-            returnView: Error404,
+            returnView: error404,
             state: {},
             uri: location.pathname,
             title: ' ERROR',
             background: `#eaeff3`
         },
         '/loading': {
-            returnView: Loading,
+            returnView: loading,
             state: {},
             uri: location.pathname,
             title: 'Loading...',
