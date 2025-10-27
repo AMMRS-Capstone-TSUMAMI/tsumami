@@ -1,5 +1,5 @@
 import {getHeaders} from "../auth.js";
-import createView from "../createView.js";
+import createView from "../create-view.js";
 
 
 let me;

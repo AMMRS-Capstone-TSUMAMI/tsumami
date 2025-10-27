@@ -1,6 +1,6 @@
 import render from './render.js';
 import router from './router.js';
-import fetchData from "./fetchData.js";
+import fetchData from "./fetch-data.js";
 import {getHeaders} from "./auth.js";
 import {isLoggedIn} from "./auth.js";
 

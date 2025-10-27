@@ -1,5 +1,5 @@
 import * as auth from "../auth.js";
-import createView from "../createView.js";
+import createView from "../create-view.js";
 import {checkAndAddTrophy, getUserData} from "./User.js";
 import * as utils from "../utils.js"
 

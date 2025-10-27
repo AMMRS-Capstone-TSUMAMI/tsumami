@@ -1,14 +1,14 @@
-import Home, {HomeEvents} from "./views/Home.js";
-import Landing from "./views/Landing.js";
-import About, {aboutEvent} from "./views/About.js";
-import Error404 from "./views/Error404.js";
-import Loading from "./views/Loading.js";
-import Login, {LoginEvent} from "./views/Login.js";
-import Register, {RegisterEvent} from "./views/Register.js"
-import prepareUserHTML, {prepareUserJS} from "./views/User.js";
-import Logout, {LogoutEvent} from "./views/Logout.js";
-import Meals, {MealsEvent} from "./views/Meals.js";
-import recipesHTML, {recipesEvent} from "./views/Recipes.js";
+import Home, {HomeEvents} from "./views/home.js";
+import Landing from "./views/landing.js";
+import About, {aboutEvent} from "./views/about.js";
+import Error404 from "./views/error404.js";
+import Loading from "./views/loading.js";
+import Login, {LoginEvent} from "./views/login.js";
+import Register, {RegisterEvent} from "./views/register.js"
+import prepareUserHTML, {prepareUserJS} from "./views/user.js";
+import Logout, {LogoutEvent} from "./views/logout.js";
+import Meals, {MealsEvent} from "./views/meals.js";
+import recipesHTML, {recipesEvent} from "./views/recipes.js";
 
 /**
  * Returns the route object for a specific route based on the given URI

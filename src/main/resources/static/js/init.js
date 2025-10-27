@@ -1,4 +1,4 @@
-import createView from './createView.js';
+import createView from './create-view.js';
 import {checkForLoginTokens, getUser, isLoggedIn, isRegistered, setLoggedInUserInfo} from "./auth.js";
 
 
