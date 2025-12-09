@@ -1,4 +1,4 @@
-export default function Login(props) {
+export default function login(props) {
     return `<div id="login-container">
 
 </div>`;

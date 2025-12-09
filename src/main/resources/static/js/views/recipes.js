@@ -48,7 +48,7 @@ function populateIngredients() {
     for (let i = 0; i < ingredients.length; i++) {
         let image = `https://spoonacular.com/cdn/ingredients_100x100/${ingredients[i].image}`;
         if (ingredients[i].image === null) {
-            image = "/img/frying-panResized.png"
+            image = "/img/frying-pan-resized.png"
         }
         html += `
 

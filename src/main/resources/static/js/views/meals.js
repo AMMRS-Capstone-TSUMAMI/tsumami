@@ -1,5 +1,5 @@
 import * as auth from "../auth.js";
-import createView from "../createView.js";
+import createView from "../create-view.js";
 import {checkAndAddTrophy, getUserData} from "./User.js";
 import * as utils from "../utils.js"
 
@@ -7,7 +7,7 @@ import * as utils from "../utils.js"
 // TODO: calculate summaries in frontend
 let today = new Date;
 let me, intolerances, diet, nutrition, startDay, plan, results, timeslotId, summaries;
-export default function Meals(props) {
+export default function meals(props) {
     me = props.me;
     intolerances = me.intolerances;
     diet = me.diet;

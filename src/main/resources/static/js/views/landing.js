@@ -1,4 +1,4 @@
-export default function Landing(props) {
+export default function landing(props) {
     console.log("The frontend did it. HER FAULT");
     return `
           <head>

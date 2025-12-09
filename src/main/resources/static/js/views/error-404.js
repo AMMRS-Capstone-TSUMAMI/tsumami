@@ -1,4 +1,4 @@
-export default function Error404(props) {
+export default function error404(props) {
     return `
 <div id="error-main" class="container">
     <h1>Something went wrong! </h1>
