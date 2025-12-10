@@ -15,9 +15,9 @@ export function LoginEvent() {
 
     // Parameters to pass to OAuth 2.0 endpoint.
     var params = {'client_id': CLIENT_ID,
-        'redirect_uri': REDIRECT_URL,
+        'redirect_uri': REDIRECT_URI,
         'response_type': 'token',
-        'scope': SCOPES,
+        'scope': 'email profile openid',
         'include_granted_scopes': 'true',
         'state': 'pass-through value'};
 
